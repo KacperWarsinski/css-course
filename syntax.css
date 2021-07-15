@@ -1,8 +1,11 @@
-li:last-child, li:nth-child(2){
-    color:red
+#banner{
+    background-color: #606060;
+    width: 100%;
+    height: 300px;
+    background-image: url(https://cdn.pixabay.com/photo/2018/03/23/09/15/chevrolet-3253172__340.png),
+        url(https://cdn.pixabay.com/photo/2015/12/01/15/43/black-1072366__480.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right, center;
+    background-size: 500px, 100%
 }
-.box{
-    margin: 40px;
-    padding: 40px;
-    border: 5px solid #000;
-}
+        
